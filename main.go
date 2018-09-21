@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright © 2015 Erik Brady <brady@dvln.org>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,8 +23,9 @@ package main
 import (
 	"os"
 
-	"github.com/dvln/dvln/cmds"
 	"github.com/dvln/out"
+
+	"github.com/sniperkit/snk.fork.dvln/cmds"
 )
 
 // This is initialized in the Makefile (or build CLI) via this:
